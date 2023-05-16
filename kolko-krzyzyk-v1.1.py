@@ -67,7 +67,6 @@ def ruchGracza():
             if pozycja > 0 and pozycja < 10:
                 if czyPusteMiejsce(pozycja):
                     wstawZnak('X', pozycja)
-                    print(ruchyGracza)
                     ruchyGracza += 1
                     break
                 else:
