@@ -157,11 +157,11 @@ def gra():
             wygraneG += 1
             rysujPlansze()
             print('\n')
-            input('X wygrywa! Naciśnij Enter aby grać.')
+            input('X wygrywa! Naciśnij Enter, aby zagrać ponownie.')
             break
         
         if czyPlanszaPelna():
-            input('Remis! Naciśnij Enter aby grać.')
+            input('Remis! Naciśnij Enter, aby zagrać ponownie.')
             break
 
         ruchKomp()
@@ -171,12 +171,12 @@ def gra():
             wygraneK += 1
             rysujPlansze()
             print('\n')
-            input('O wygrywa! Naciśnij Enter aby zagrać ponownie.')
+            input('O wygrywa! Naciśnij Enter, aby zagrać ponownie.')
             break
 
 
 def main():
-    input('Witaj w grze Kółko i Krzyżyk! Naciśnij Enter aby zacząć grę.')
+    input('Witaj w grze Kółko i Krzyżyk! Naciśnij Enter, aby zacząć grę.')
     
     while True:
         gra()
